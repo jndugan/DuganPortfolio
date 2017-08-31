@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('CaviarDreams-webfont.eot');
+    src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CaviarDreams-webfont.woff2') format('woff2'),
+         url('CaviarDreams-webfont.woff') format('woff'),
+         url('CaviarDreams-webfont.ttf') format('truetype'),
+         url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: "caviar_dreamsregular", arial, sans-serif;
+  font-size: 5em;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+}
+
+h3{
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  color: white;
+}
+
+#aboutmain{
+  positon: absolute;
+}
+
+p{
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  color: white;
+}
+
+form {
+  margin: 10px;
+  border: solid 1px white;
+  padding: 10px;
+  color: white;
+  font-family: "caviar_dreamsregular", arial, sans-serif;
+}
+
+.list{
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  color: white;
+  position: absolute;
+  top: 300px;
+}
+
+#smlinks {
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 20px
+}
+
+#smlinks li a {
+  color: white;
+  text-decoration: none;
+  font-family: "caviar_dreamsregular", arial, sans-serif;
+}
+
+#smlinks li a:hover {
+  border: 1px solid white;
+}
+
+#smlinks li {
+  padding: 5px;
+}
+
+.comment {
+  height: 100px;
+  width: auto;
+}
+
+input {
+
+}
+
+#submit {
+  background-color:  #5a504a;
+  text-shadow: 0px 1px 1px #111;
+  color: white;
+  padding: 6px;
+  border: solid white 2px;
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  font-size: 16px;
+  text-transform:uppercase;
+}
+
+#submit:hover{
+  background-color: #e9b4a1;
+}
+
+#reset:hover{
+  background-color: #e9b4a1;
+}
+
+#reset {
+  background-color:  #5a504a;
+  text-shadow: 0px 1px 1px #111;
+  color: white;
+  padding: 6px;
+  border: solid white 2px;
+  font-family:  "caviar_dreamsregular", arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.maincontent {
+  height: 100vh;
+  background-color: #5a504a;
+}
+
+img {
+padding: 1px;
+opacity: .5;
+
+}
+
+#images {
+  float: left;
+}
+
+blockquote{
+  position: absolute;
+  top: 430px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #5a504a;
+}
+.menubar{
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.menubar li {
+  float:left;
+  border-right: solid 1px white;
+}
+.menubar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "caviar_dreamsregular", arial, sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menubar li a:hover {
+    background-color: #111;
+}
+.active {
+  background-color: #e9b4a1;
+}
+
+#mainheader{
+  padding: 10px;
+  background-color: #e9b4a1;
+  color: white;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#images {
+  margin-top: 5px;
+  margin-bottom:0px;
+}
+
+#aboutmain {
+  margin-top: 5px;
+  margin-bottom:0px;
+}
+
+#contactmain {
+  margin-top: 5px;
+  margin-bottom:0px;
+}
+
+#linksmain {
+  margin-top: 5px;
+  margin-bottom:0px;
+}
+
+img {
+margin: 5px 3px;
+align-content: stretch;
+}
